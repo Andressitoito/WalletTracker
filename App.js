@@ -19,8 +19,8 @@ function App() {
     <Provider store={store}>
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="Home" component={HomeScreen} options={{title: 'Expense tracker'}}/>
-          <Stack.Screen name="Add" component={AddTransaction} options={{ title: 'Add Expense' }}/>
+          <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Expense tracker' }} />
+          <Stack.Screen name="Add" component={AddTransaction} options={{ title: 'Add Expense' }} />
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>
