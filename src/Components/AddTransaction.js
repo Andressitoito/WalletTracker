@@ -11,25 +11,18 @@ import {
   Item,
   Input
 } from 'native-base'
+import { NativeBaseProvider, Box } from 'native-base';
 
 
 function AddTransaction() {
   return (
-    // <Content>
-    //   <Form>
-    //     <Item style={styles.item}>
-    //       <Input placeholder='Exprense Title' />
-    //     </Item>
-    //     <Item style={styles.item}>
-    //       <Input placeholder='Exprense Price' keyboardType='number-pad' />
-    //     </Item>
-    //   </Form>
-    // </Content>
-    <View>
-      <Text>
-        asdasd
-      </Text>
-    </View>
+    <NativeBaseProvider>
+      <Container>
+        <Text>
+          asdasdasd
+        </Text>
+      </Container>
+    </NativeBaseProvider>
 
   )
 }
